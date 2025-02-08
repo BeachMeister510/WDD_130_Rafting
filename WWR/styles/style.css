@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 #content {
 max-width: 1600px;
 margin: 0 auto;
@@ -6,14 +8,17 @@ margin: 0 auto;
 nav a{
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero_msg h1 {
     text-align: center;
+    font-family: Bangers, "Times New Roman", Arial, ;
 }
 
 #hero_msg h4 {
     text-align: center;
+    font-family: Bangers, "Times New Roman", Arial;
 }
 
 .button-box {
@@ -24,13 +29,26 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 body {
     background-color: #2c86cb;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color: #47b3fb;
 }
@@ -43,11 +61,19 @@ nav a:hover {
 .book {
     color: #8dd7fc;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     color: #8dd7fc;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -60,15 +86,40 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid white;
+}
+
 #background {
     background-color: #47b3fb;
+    margin-bottom: 75px;
 }
 .msg {
     color: #8dd7fc;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
 footer{
     background-color: #47b3fb;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 .logo {
@@ -77,6 +128,7 @@ footer{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero_box img{
@@ -89,8 +141,27 @@ footer a {
 
 footer p {
     font-size: 1.2em;
+    font-family: "Times New Roman", Helvetica, sans-serif;
 }
 
 footer p:hover{
     text-decoration: underline;
+}
+
+section h2{
+    font-family: Bangers, "Times New Roman", Arial;
+}
+
+.home-title{
+    font-size: 2em;
+    font-family: Bangers, "Times New Roman", Arial;
+    margin-top: 10px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+#logo_link{
+    padding-top: 5px;
 }
