@@ -1,0 +1,17 @@
+header {
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 1;
+    display: grid;
+}
+
+#logo_link {
+    grid-column: 1 / 2;
+}
+
+#searchbar {
+    grid-column: 2 / 3;
+}
+
+#weather_settings {
+    grid-column: 3 / 4;
+}
